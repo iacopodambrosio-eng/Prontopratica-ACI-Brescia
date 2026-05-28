@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { supabase } from '../../supabase.js'
+import { supabase } from './supabase.js'
 import './StepServizio.css'
 
 const CATEGORY_ICONS = {
