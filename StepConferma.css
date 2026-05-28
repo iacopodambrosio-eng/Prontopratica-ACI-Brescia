@@ -1,0 +1,137 @@
+.conferma-wrapper {
+  animation: fadeUp 0.4s ease;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.conferma-card {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 36px 32px;
+  text-align: center;
+}
+
+.conferma-icon {
+  width: 72px;
+  height: 72px;
+  background: var(--success);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+}
+
+.conferma-title {
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+}
+
+.conferma-sub {
+  color: var(--gray-500);
+  font-size: 1rem;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.codice-box {
+  background: var(--navy);
+  border-radius: var(--radius-sm);
+  padding: 18px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.codice-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.5);
+}
+
+.codice-value {
+  font-family: 'Courier New', monospace;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.15em;
+}
+
+.codice-hint {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.45);
+  margin-top: 4px;
+}
+
+.detail-list {
+  border: 2px solid var(--gray-100);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 12px;
+}
+
+.detail-row + .detail-row {
+  border-top: 1px solid var(--gray-100);
+}
+
+.detail-key {
+  font-size: 0.82rem;
+  color: var(--gray-500);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.detail-val {
+  font-size: 0.92rem;
+  color: var(--gray-700);
+  font-weight: 500;
+  text-align: right;
+}
+
+.sede-box {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  text-align: left;
+  background: var(--off-white);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--gray-700);
+}
+
+.sede-box svg {
+  color: var(--red);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.conferma-nota {
+  font-size: 0.82rem;
+  color: var(--gray-500);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+@media (max-width: 500px) {
+  .conferma-card { padding: 24px 16px; }
+  .codice-value { font-size: 1.3rem; }
+}
