@@ -1,0 +1,64 @@
+.summary-box {
+  background: var(--navy);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.95rem;
+}
+
+.summary-row svg {
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.summary-row strong {
+  color: white;
+}
+
+.optional {
+  font-weight: 300;
+  color: var(--gray-500);
+  font-size: 0.8rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.privacy-note {
+  font-size: 0.78rem;
+  color: var(--gray-500);
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.error-msg {
+  color: var(--red);
+  font-size: 0.9rem;
+  padding: 10px 14px;
+  background: #fff0f0;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--red);
+}
+
+.btn-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255,255,255,0.4);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
