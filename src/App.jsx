@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import Header from './components/Header.jsx'
-import StepServizio from './components/StepServizio.jsx'
-import StepData from './components/StepData.jsx'
-import StepForm from './components/StepForm.jsx'
-import StepConferma from './components/StepConferma.jsx'
-import ProgressBar from './components/ProgressBar.jsx'
+import Header from '../Header.jsx'
+import StepServizio from '../StepServizio.jsx'
+import StepData from '../StepData.jsx'
+import StepForm from '../StepForm.jsx'
+import StepConferma from '../StepConferma.jsx'
+import ProgressBar from '../ProgressBar.jsx'
 import './App.css'
 
 export default function App() {
